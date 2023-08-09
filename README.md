@@ -1,11 +1,5 @@
 ![Codefi](images/CodefiBanner.png)
 
-# Overview of the repo
- - [Universal Token For Assets and Payments](https://github.com/ConsenSys/ERC1400/blob/master/README.md)
- - [Certificate-based token transfers](contracts/certificate/README.md)
- - [Delivery-vs-payment](contracts/tools/Swaps.md)
- - [Fund issuance](contracts/tools/FundIssuer.md)
-
 # Introduction
 
 Never heard of tokenization
@@ -461,6 +455,12 @@ MNEMONIC - Ethereum wallets which will be used by the webservice to sign the tra
 INFURA_API_KEY - Key to access an Ethereum node via Infura service (for connection to mainnet or ropsten network) - [OPTIONAL - Only required if NETWORK = mainnet/ropsten] (see section "How to get an INFURA_API_KEY?" in appendix)
 
 #### Step2: Deploy contract
+
+**Install all the lib used in this project**
+In case of error make sure you have add openzeppelin lib too
+```
+npm install truffle @openzeppelin/contracts
+```
 
 **Deploy contract on ganache**
 
